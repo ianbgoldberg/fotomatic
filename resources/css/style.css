@@ -68,6 +68,10 @@ header .content .desktop a {
   padding: 0rem 1.75rem;
 }
 
+header .content .desktop .button {
+  display: none;
+}
+
 header .content .desktop_logo {
   padding-left: 1.875rem;
 }
@@ -83,6 +87,18 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
+
+  header .content .desktop .button {
+    display: inherit;
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6rem;
+    color: white;
+  }
+
+}
+
+@media only screen and (max-width: 655px) {
 
   header .content .desktop, .desktop_logo {
     display: none;
