@@ -364,6 +364,7 @@ header .mobile {
 /* Quotes Section */
 
 #quotes-section {
+  width: 100%;
   background-color: #f3f3f3;
   padding: 5rem 2rem;
   display: inline-flex;
@@ -386,6 +387,7 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   #quotes-section {
+    width: 100%;
     padding: 1.875rem .625rem;
     display: flex;
     flex-direction: column;
