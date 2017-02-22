@@ -89,7 +89,7 @@ header .mobile {
 
 }
 
-@media only screen and (max-width: 655px) {
+@media only screen and (max-width: 655px /* not 450px*/) {
 
   header .desktop, .desktop_logo {
     display: none;
